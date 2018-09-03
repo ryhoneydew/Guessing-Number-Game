@@ -1,0 +1,110 @@
+body {
+    background-image: url("https://i.imgur.com/d0weqfW.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background: linear-gradient(rgba(230, 100, 101, 0.5), rgba(145, 152, 229, 0.5));
+    width: 800px;
+    height: 500px;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.hints {
+    display: inline-block;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+    align-items: center;
+}
+
+ul li {
+    display: inline;
+    align-items: center;
+}
+
+.button-group {
+    margin: 2em auto;
+    text-align: center
+}
+
+.button {
+    width: 48px;
+    height: 48px;
+    box-shadow: 2px 2px 2px rgb(31, 30, 30);
+    background-color: #b23d35;
+    font-size: 15px;
+    border: black 1px solid;
+    border-radius: 8px;
+    text-shadow: 1px, 0px, 0px grey;
+    text-align: center
+}
+
+/*.button :hover {
+    background-color: rgb(43, 2, 2);
+    color: #4c5b56;
+}
+*/
+.button1 {
+    width: 80px;
+    height: 25px;
+}
+
+.button2 {
+    width: 100px;
+    height: 25px;
+}
+
+#title1 {
+    font-size: 3em;
+    text-shadow: 2px 2px rgb(31, 30, 30);
+    text-align: center;
+}
+
+#title2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-shadow: 2px 2px rgb(31, 30, 30);
+    text-align: center;
+}
+
+#enter-number {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 2em;
+    background: black;
+    box-shadow: 2px 2px 2px rgb(31, 30, 30);
+}
+
+.guessed {
+    margin: auto;
+    text-align: center
+}
+
+.guesses {
+    display: inline;
+    background: black;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 10px 16px;
+    margin: auto 10px;
+    box-shadow: 2px 2px 2px rgb(31, 30, 30);
+}

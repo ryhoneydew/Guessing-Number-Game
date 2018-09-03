@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guessing Game</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="guessing-game.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container center">
+        <div>
+            <div>
+                <h1 id="title1">Guessing Game</h1>
+                <h2 id="title2">Guess a number between 0 and 100</h2>
+            </div>
+            <div>
+                <input id="enter-number" type="text" placeholder="Enter a #" class="box">
+            </div>
+            <div class="button-group">
+                <button id="submit" class="button button1">Submit</button>
+                <button id="Hint" class="button button1">Hint</button>
+                <button id="New-game" class="button button2">New Game</button>
+            </div>
+            <div class="hints">
+                <div id="hint1"></div>
+                <div id="hint2"></div>
+                <div id="hint3"></div>
+
+            </div>
+            <div>
+                <ul class="guessed">
+                    <li id="guessed1" class="guesses">?</li>
+                    <li id="guessed2" class="guesses">?</li>
+                    <li id="guessed3" class="guesses">?</li>
+                    <li id="guessed4" class="guesses">?</li>
+                    <li id="guessed5" class="guesses">?</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="gussing-game.js"></script>
+</body>
+
+</html>
